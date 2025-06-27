@@ -1,0 +1,12 @@
+Paso 1: Escribo 'cd /c:/users/….
+Paso 2: Escribo ;git init'
+Paso 3: Escribo 'git config user.name "CainDevx"'
+Paso 4: Escribo 'git config user.email "cain.devx@gmail.com"'
+Paso 5: Escribo 'git remote add origin "la url que me dio al crear el repositorio"  
+       ('origin' es un nombre por buenas practicas)
+
+Mirar: Para ver el estado actual poner "git status"
+
+Mandar un archivo: poner "git add nombre_archivo.txt"   (por ejemplo un .txt)
+Para confirmar: escribo "git commit -m "mensaje del commit" (-m creo que es main)
+Para enviar: escribo "git push -u origin master"  (origin lo puse arriba y master es main)
