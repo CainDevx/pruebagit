@@ -7,6 +7,27 @@ Paso 5: Escribo 'git remote add origin "la url que me dio al crear el repositori
 
 Mirar: Para ver el estado actual poner "git status"
 
-Mandar un archivo: poner "git add nombre_archivo.txt"   (por ejemplo un .txt)
+Mandar un archivo: poner "git add nombre_archivo.txt" o "git add."  (por ejemplo un .txt)
 Para confirmar: escribo "git commit -m "mensaje del commit" (-m creo que es main)
 Para enviar: escribo "git push -u origin master"  (origin lo puse arriba y master es main)
+
+
+------------------------
+Crear ramas
+1) 'git branch' (para ver las ramas y donde estoy parado)
+2) Si quiero crear una nueva rama 'git branch rama1'  (rama1 es el nombre de la nueva rama)
+
+Cambiar de nombre la rama:
+'git branch -m rama1 ramita'  (-m es donde estoy parado y luego, nombre viejo y nuevo)
+
+Pasar a la nueva rama:
+'git checkout ramita' y pasa
+
+Borrar rama:
+'git branch -d ramita' (-d es de delate)
+
+Crear archivos en mi nueva rama:
+'touch "taxto1.txt"
+
+
+
